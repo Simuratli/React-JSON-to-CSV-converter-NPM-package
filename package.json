@@ -1,7 +1,11 @@
 {
   "name": "@simuratli/react-json-csv-converter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React json to csv converter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Simuratli/React-JSON-to-CSV-converter-NPM-package.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -9,8 +13,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
+  "keywords": [
+    "react",
+    "csv",
+    "json",
+    "download",
+    "export",
+    "react-component",
+    "csv-export",
+    "json-to-csv",
+    "react-json-csv-converter",
+    "react-json-to-csv-converter"
+  ],
   "author": "Simuratli Eljan",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
