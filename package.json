@@ -1,6 +1,6 @@
 {
   "name": "@simuratli/react-json-csv-converter",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "React json to csv converter",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

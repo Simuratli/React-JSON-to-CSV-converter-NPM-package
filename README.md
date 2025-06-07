@@ -15,13 +15,13 @@ A lightweight and customizable React component that enables users to download JS
 ## 📦 Installation
 
 ```bash
-npm install json-to-csv-download
+npm install @simuratli/react-json-csv-converter
 ```
 
 or
 
 ```bash
-yarn add json-to-csv-download
+yarn add @simuratli/react-json-csv-converter
 ```
 
 ---
@@ -31,7 +31,7 @@ yarn add json-to-csv-download
 ### 1. Auto-detect headers from JSON:
 
 ```tsx
-import { JsonToCsvDownload } from 'json-to-csv-download';
+import { JsonToCsvDownload } from '@simuratli/react-json-csv-converter';
 
 const data = [
   { id: 1, name: 'Alice', age: 30 },
@@ -48,7 +48,7 @@ const data = [
 ### 2. With custom headers (label + key):
 
 ```tsx
-import { JsonToCsvDownload } from 'json-to-csv-download';
+import { JsonToCsvDownload } from '@simuratli/react-json-csv-converter';
 
 const data = [
   { id: 1, name: 'Alice', age: 30 },
